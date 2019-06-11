@@ -10,8 +10,8 @@ $ json-server -p 8000 db.json
 
 # To run APP
 
-npm install
-npm run start 
+1) npm install
+2) npm run start 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 

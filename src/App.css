@@ -1,0 +1,115 @@
+body {
+  background-color: #F5F5F5;
+  background-color: #000;
+  color: #fff;
+}
+
+hr {
+  border: 0.5px solid;
+  opacity: 0.5;
+}
+
+.netflix-icon {
+  height: 59px;
+  width: 150px;
+}
+
+.section-title {
+  color: #c6c5c5;
+  font-size: 16px;
+  margin-left: 10px;
+  padding-top: 40px;
+  text-decoration: underline;
+}
+
+.content-wrapper {
+  z-index: 0;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MyList {
+  padding-bottom: 50px;
+}
+
+.movie {
+  border: 3px solid #DEB887;
+  margin: 10px;
+  height: 300px;
+  width: 220px;
+}
+
+.movie:hover {
+  border-color: #fff;
+}
+
+.movie img {
+  height: 250px;
+  width: 214px;
+}
+
+.movie-menu {
+  padding: 10px;
+  opacity: 0.75;
+  text-align: center;
+}
+
+
+.movie:hover .movie-remove {
+  display: block;
+}
+
+.movie:hover .movie-add {
+  display: block;
+}
+
+.movie-remove, .movie-add {
+  display: none;
+  width: 223px;
+  height: 25px;
+  color: white;
+  background-color: #F6111D;
+
+}
+
+.movie-remove .glyphicon, .movie-add .glyphicon {
+  padding-right: 10px;
+}
+
+.movie-add {
+  display: none;
+}
+
+
+.footer {
+  position: fixed;
+  height: 50px;
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Recommendations .container{
+  padding-bottom: 50px
+
+}
+
+@keyframes fade-in {
+  from {
+      opacity: 0
+  }
+  to {
+      opacity: 0.8
+  }
+}
+
+.img-responsive {
+  height: 45px;
+    width: 142px;
+}
+
+.navbar{
+  margin-left: 13px;
+}
